@@ -1,0 +1,65 @@
+.menu {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  min-width: 300px;
+  max-width: 400px;
+  color: #fff;
+  left: 1450;
+  top: 430;
+  position: absolute;
+  border-radius: 6px;
+  background-color: rgba(5, 5, 5, 0.85);
+  padding:25px;
+}
+
+.menu.align-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu .head-default {
+  font-size: 16px;
+  text-align: center;
+  padding: 14px;
+  color: #FFFFFF;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.menu .menu-items {
+  max-height: 375px;
+  overflow-y: hidden;
+}
+
+.menu .menu-items .menu-item {
+  display: block;
+  font-size: 13px;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  justify-content: space-between;
+  border-width:1px;  
+  margin-bottom: 0px;
+  color: white;
+  position: relative;
+}
+
+.menu .menu-items:nth-child(1) {
+  margin-top: 0;
+}
+
+.menu .menu-items .menu-item.selected {
+  color: rgb(53, 91, 125);
+  font-weight: bold;
+  border: 1px solid #355b7d;
+  border-radius: 3px;
+  background-image: none;
+  -webkit-animation-name: fadeIn; 
+  -webkit-animation-duration: 0.9s; 
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
