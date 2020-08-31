@@ -11,5 +11,7 @@ CHANGE:
   
 --]]
 
+Also rename the file from esx_menudefault-master to "esx_menudefault" - I've kept It like that for years and cannot be bothered to add the _ hahaha.. but If you would like to rename It. It is up to you **I do not own this script!**
+
 
 Video: https://streamable.com/s25z4l
